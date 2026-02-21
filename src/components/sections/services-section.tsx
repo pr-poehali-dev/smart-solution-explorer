@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Профессии
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Где нужна биология</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Генетик",
+              description: "Изучает наследственность, помогает в диагностике редких болезней и создании персонализированных лекарств",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Биоинженер",
+              description: "Разрабатывает искусственные органы, протезы и медицинское оборудование на основе живых тканей",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Эколог",
+              description: "Оценивает влияние промышленности на природу, разрабатывает стратегии сохранения биоразнообразия",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Биоинформатик",
+              description: "Анализирует большие данные о ДНК и белках с помощью компьютерных алгоритмов — профессия на стыке биологии и IT",
               direction: "bottom",
             },
           ].map((service, i) => (
