@@ -83,11 +83,11 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
           }`}
           style={{ transitionDelay: "750ms" }}
         >
-          <MagneticButton size="lg" variant="primary" onClick={() => scrollToSection?.(2)}>
-            Профессии биологии
+          <MagneticButton size="lg" variant="primary" onClick={() => scrollToSection?.(3)}>
+            Карта профессий
           </MagneticButton>
-          <MagneticButton size="lg" variant="secondary" onClick={() => scrollToSection?.(1)}>
-            Направления
+          <MagneticButton size="lg" variant="secondary" onClick={() => scrollToSection?.(5)}>
+            Контакты
           </MagneticButton>
         </div>
       </div>
